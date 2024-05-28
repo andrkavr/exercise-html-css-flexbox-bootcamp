@@ -1,4 +1,4 @@
-:root {
+/* :root {
     font-size: 20px;
 }
 
@@ -88,4 +88,69 @@ button:hover {
     background: black;
     color: white;
     cursor: pointer;
+} */
+
+body {
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  height: 100vh;
+  margin: 0;
+}
+
+article {
+  max-width: 300px;
+  box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+}
+
+figure {
+  margin: 0;
+  width: 100%;
+  background-color: rgb(255, 208, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+figcaption {
+  opacity: 60%;
+  color: white;
+  align-self: flex-end;
+  padding-right: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+img {
+  width: 80%;
+  margin: 4rem 0;
+}
+
+section {
+  margin: 0;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 1rem 2rem 1.5rem;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+h2 {
+  font-size: 0.8rem;
+  margin-top: 0.3rem;
+}
+
+.price {
+  margin-top: 1.5rem;
+  align-self: flex-end;
+  font-size: 2rem;
+  font-weight: 900;
 }
