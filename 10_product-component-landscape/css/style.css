@@ -1,7 +1,7 @@
 :root {
-    font-size: 20px;
+  font-size: 20px;
 }
-
+/* 
 body {
     margin: 0;
     background: rgb(212, 212, 212);
@@ -83,4 +83,83 @@ button:hover {
     background: black;
     color: white;
     cursor: pointer;
+} */
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+article {
+  display: flex;
+  margin: auto auto;
+  max-width: 720px;
+  box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.2rem;
+}
+
+figure {
+  background-color: rgb(255, 208, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+  width: 50%;
+  padding-top: 4rem;
+}
+
+img {
+  max-width: 80%;
+}
+
+figcaption {
+  align-self: flex-end;
+  margin: 3.7rem 1.5rem 1rem 0;
+}
+
+aside {
+  background-color: white;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 1rem 1rem 1rem;
+}
+
+h1 {
+  font-size: 1.4rem;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+h2 {
+  margin: 0;
+  font-size: 0.85rem;
+}
+
+p {
+  font-size: 0.78rem;
+}
+
+button {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 0.2rem;
+  padding: 0.5rem 1rem 0.5rem 0.8rem;
+  font-weight: 600;
+  max-width: 50%;
+  align-self: flex-end;
+  margin-top: 5rem;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: green;
+  color: #fff;
 }
