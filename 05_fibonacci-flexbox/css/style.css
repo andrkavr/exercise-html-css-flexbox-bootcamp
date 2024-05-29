@@ -1,4 +1,5 @@
-body {
+/* body {
+
     margin: 0;
     background: #eee;
     height: 100vh;
@@ -37,4 +38,82 @@ article .box-6 { background:rgba(100,100,0,1); flex: 5; }
 article .box-7 { background:rgba(100,120,0,1); flex: 8; }
 article .box-8 { background:rgba(100,140,0,1); flex: 13; }
 article .box-9 { background:rgba(100,160,0,1); flex: 21; }
-article .box-10 { background:rgba(100,180,0,1); flex: 34; }
+article .box-10 { background:rgba(100,180,0,1); flex: 34; } */
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background-color: rgb(218, 218, 218);
+  height: 100vh;
+}
+
+article {
+  display: flex;
+  width: 100%;
+  max-width: 70%;
+}
+
+.box-1 {
+  background-color: rgba(100, 0, 0, 1);
+  flex: 0;
+}
+
+.box-2 {
+  background-color: rgba(100, 20, 0, 1);
+  flex: 1;
+}
+
+.box-3 {
+  background-color: rgba(100, 40, 0, 1);
+  flex: 1;
+}
+
+.box-4 {
+  background-color: rgba(100, 60, 0, 1);
+  flex: 2;
+}
+
+.box-5 {
+  background-color: rgba(100, 80, 0, 1);
+  flex: 3;
+}
+
+.box-6 {
+  background-color: rgba(100, 100, 0, 1);
+  flex: 5;
+}
+
+.box-7 {
+  background-color: rgba(100, 120, 0, 1);
+  flex: 8;
+}
+
+.box-8 {
+  background-color: rgba(100, 140, 0, 1);
+  flex: 13;
+}
+
+.box-9 {
+  background-color: rgba(100, 160, 0, 1);
+  flex: 21;
+}
+
+.box-10 {
+  background-color: rgba(100, 180, 0, 1);
+  flex: 34;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+section {
+  padding: 0.4rem;
+  font-size: 0.7rem;
+  color: whitesmoke;
+  height: 3rem;
+}
